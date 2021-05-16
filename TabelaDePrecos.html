@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetinho1</title>
+</head>
+
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    margin: 20px auto;
+    background-color: gainsboro;
+    padding: 50px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.boxao{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+p{
+    margin-left: 5%;
+}
+
+
+
+.container1{
+    background-color: rgb(241, 240, 240);
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(163, 163, 163);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;  
+     
+}
+
+.container2{
+    background: linear-gradient(#02ada5, #51e0d9);
+    border-radius: 5px;
+    grid-row-start: 2;
+    box-shadow: 0px 0px 4px rgb(163, 163, 163);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;  
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; 
+
+    
+    
+}
+
+.container3{
+    background: linear-gradient(rgb(60, 189, 150), rgb(32, 223, 165));
+    grid-row-start: 2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgb(163, 163, 163);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;  
+    
+   
+    
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 280px;
+    
+    
+}
+
+p.sub{
+    color: rgb(92, 92, 92);
+    margin-left: 5%;
+}
+
+h1{
+    color:rgb(32, 202, 194);
+}
+
+h2.first{
+    color: rgb(183, 235, 104)
+}
+
+h2{
+    color: rgb(243, 241, 241);
+}
+
+p.first{
+    color: rgb(194, 236, 130);
+    margin-top: -8px;
+}
+
+p.sub{
+    color: rgb(100, 100, 100);
+    margin-top: 0px;
+    
+}
+
+b{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+
+input{
+    margin: 20px auto;
+    width: 90%;
+    background-color: rgb(172, 247, 59) ;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight:500;
+    margin-top: 30px;
+    cursor: pointer;
+
+    
+
+    
+}
+
+input:hover{
+    background-color:rgb(146, 214, 43) ; ;
+}
+
+p.sub1{
+    color: rgb(233, 233, 233);
+    margin-top: 0px;
+    
+    
+}
+
+@media (max-width: 780px){
+
+body{
+    
+    
+}
+
+.container1{
+   
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.container2{
+   
+   grid-column-start: 1;
+   grid-column-end: 3;
+   
+}
+
+.container3{
+   
+   grid-column-start: 1;
+   grid-row-start: 3;
+   grid-column-end: 3;
+   
+
+
+}
+
+.box{
+    grid-template-columns: 200px 200px 200px;
+    margin-right: 75px;
+    
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+<body>
+    
+<div class="boxao">
+<div class="box">
+
+<div class="container1">
+<h1><p>Join our community</p></h1>
+<h2><p class="first">30 days blablabla isso ai verdade sim</p></h2>
+<p class="sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, accusantium explicabo </p>
+</div>
+
+<div class="container2">
+    <h2><p>Montly subscription</p></h2>
+    <p class="sub1"><b>$29</b>  per mounth</p>
+    <p class="sub1">Full acess for less than $1 a day</p>
+    <p><input type="button" value="Sign up"></p>
+
+</div>
+
+    <div class="container3">
+        <h2><p>Why us</p></h2>
+        <p class="sub1">Lorem, ipsum dolor sit amet<br> consectetur adipisicing elit.<br> Consequuntur animi fugit<br> architecto similique ea?<br> Voluptates facilis consequa<br> nobis molestias, eaque quam<br> quas provident consequuntur<br> tempore est dignissimos ullam.</p>
+        </div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
