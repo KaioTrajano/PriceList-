@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-teste 2
-=======
-teste 5
->>>>>>> staging
+teste tetetete
